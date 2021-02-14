@@ -1,5 +1,5 @@
 {
-    "name": "Userge",
+    "name": "CuplizBot",
     "description": "telegram pluggable userbot",
     "logo": "https://imgur.com/download/Inyeb1S",
     "keywords": [
@@ -8,28 +8,28 @@
         "pluggable",
         "userbot"
     ],
-    "repository": "https://github.com/UsergeTeam/Userge",
+    "repository": "https://github.com/yupisky/Userge",
     "website": "https://github.com/Userge",
-    "success_url": "https://t.me/theUserge",
+    "success_url": "https://t.me/Temengoblok",
     "env": {
-        "API_ID": {"description": "Get this value from https://my.telegram.org"},
-        "API_HASH": {"description": "Get this value from https://my.telegram.org"},
-        "DATABASE_URL": {"description": "Mongodb url from https://cloud.mongodb.com/"},
-        "LOG_CHANNEL_ID": {"description": "Telegram Log Channel ID"},
+        "API_ID": {"3445212": "Get this value from https://my.telegram.org"},
+        "API_HASH": {"7b4806514379577798fdc738a2afdbda": "Get this value from https://my.telegram.org"},
+        "DATABASE_URL": {"mongodb+srv://Userge:userge123@cluster0.k3bdd.mongodb.net/<dbname>?retryWrites=true&w=majority": "Mongodb url from https://cloud.mongodb.com/"},
+        "LOG_CHANNEL_ID": {"-525494657": "Telegram Log Channel ID"},
         "HU_STRING_SESSION": {
-            "description": "[USER MODE] - Get this using `bash genStr`",
+            "false": "[USER MODE] - Get this using `bash genStr`",
             "required": false},
         "BOT_TOKEN": {
-            "description": "[BOT MODE] - Get this from https://t.me/botfather",
+            "1614599172:AAFhPjSNomlvu4zBL83J8wIoRj-XGkgqK40": "[BOT MODE] - Get this from https://t.me/botfather",
             "required": false},
         "OWNER_ID": {
-            "description": "[BOT MODE] - Your user_id",
+            "1514569970": "[BOT MODE] - Your user_id",
             "required": false},
         "HEROKU_APP_NAME": {
             "description": "given app name to the heroku app",
             "required": false},
         "HEROKU_API_KEY": {
-            "description": "get a Heroku API key from http://dashboard.heroku.com/account",
+            "104d78ca-7b58-4e5c-88bb-f3ff0da42323": "get a Heroku API key from http://dashboard.heroku.com/account",
             "required": false}
     },
     "addons": [],
